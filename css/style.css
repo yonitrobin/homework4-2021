@@ -70,21 +70,26 @@ a{
 
 td{
   text-align: center;
-  border-top: 2px #000000;
+  border-top: 2px #000000 solid;
   padding: 10px;
 }
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  text-align: center;
+  vertical-align: middle;
+  margin: auto;
   text-transform: uppercase;
   background-color: #7e0825;
 }
 
 
 .rowhead{
-  border: 2px #000000;
+  border-top: solid;
+  border-right: solid;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-color: #000000;
   /* Only use the border property on the sides that aren’t touching an existing border*/
 }
 
